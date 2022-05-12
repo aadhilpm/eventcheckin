@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include eventcheckin *.css
+recursive-include eventcheckin *.csv
+recursive-include eventcheckin *.html
+recursive-include eventcheckin *.ico
+recursive-include eventcheckin *.js
+recursive-include eventcheckin *.json
+recursive-include eventcheckin *.md
+recursive-include eventcheckin *.png
+recursive-include eventcheckin *.py
+recursive-include eventcheckin *.svg
+recursive-include eventcheckin *.txt
+recursive-exclude eventcheckin *.pyc
